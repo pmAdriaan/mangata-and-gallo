@@ -1,1 +1,117 @@
-/* style.css */
+body {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #cc9c0c;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.promo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    z-index: -1;
+}
+
+.promo-banner img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.full-width-column img,
+.half-width-column img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.full-width-column h2,
+.half-width-column h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.full-width-column p,
+.half-width-column p {
+    color: #dddddd;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #ffd700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
